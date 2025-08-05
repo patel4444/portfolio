@@ -3,11 +3,11 @@
 import { personalData } from "@/utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
 
-// Fetch blogs from dev.to
+// Server-side fetch function
 async function getBlogs() {
   const res = await fetch(
     `https://dev.to/api/articles?username=${personalData.devUsername}`,
-    { cache: "no-store" } // Avoid caching for real-time updates
+    { cache: "no-store" } // Ensure fresh data
   );
 
   if (!res.ok) {
@@ -18,7 +18,7 @@ async function getBlogs() {
   return data;
 }
 
-// Page component (MUST be named with PascalCase in app router)
+// Server Component — DO NOT add "use client"
 export default async function Page() {
   const blogs = await getBlogs();
 

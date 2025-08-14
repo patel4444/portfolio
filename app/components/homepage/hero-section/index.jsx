@@ -130,8 +130,8 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">flutter</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Github</span>
-                <span className="text-gray-400">{"', '"}</span>
+                {/* <span className="text-amber-300">Github</span>
+                <span className="text-gray-400">{"', '"}</span> */}
                 <span className="text-amber-300">Sqlite</span>
                 <span className="text-gray-400">{"']"}</span>
                 {/* <span className="text-amber-300">Docker</span> */}

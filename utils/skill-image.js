@@ -113,10 +113,10 @@ export const skillsImage = (skill) => {
       return vue;
     case 'bootstrap':
       return bootstrap;
-    case 'vb.net':
-      return bulma;
-    case 'github':
-      return capacitorjs;
+    // case 'vb.net':
+    //   return vb.net;
+    // case 'github':
+    //   return capacitorjs;
     case 'coffeescript':
       return coffeescript;
     case 'memsql':
@@ -147,16 +147,16 @@ export const skillsImage = (skill) => {
       return java;
     case 'kotlin':
       return kotlin;
-    case 'julia':
-      return julia;
+    case 'gcpl':
+      return gcpl;
     case 'matlab':
       return matlab;
     case 'php':
       return php;
     case 'python':
       return python;
-    case 'ruby':
-      return ruby;
+    case 'git':
+      return git;
     case 'swift':
       return swift;
     case 'adobe audition':
